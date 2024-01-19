@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="https://github.com/sameer-saharan/JavaScript-Beginner-Projects" target="_blank">GitHub</a>
+    </nav>
+
+    <main>
+        <h1>BMI Calculator</h1>
+        <form id="form">
+            <p class="first-para"><label>Height:</label> <input type="text" placeholder="in CM" id="height"></p>
+            <p class="first-para"><label>Weight:</label> <input type="text" placeholder="in Kilograms" id="weight"></p>
+            <button type="submit">Calculate</button>
+            <div id="result">Enter your height and weight above</div>
+            <h3>Body Mass Index (BMI) Weight Guide</h4>
+        </form>
+            <div class="weight-guide">
+                <div class="wg-divs">
+                    <div class="wg-color" id="uw"></div>
+                    <div class="wg-text" id="uwt">Under Weight</div>
+                </div>
+                
+                <div class="wg-divs">
+                    <div class="wg-color" id="nw"></div> 
+                    <div class="wg-text" id="nwt">Normal Weight</div>
+                </div>
+
+                <div class="wg-divs">
+                    <div class="wg-color" id="ow"></div>   
+                    <div class="wg-text" id="owt">Over Weight</div>
+                </div>
+                
+
+            </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
