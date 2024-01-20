@@ -20,11 +20,14 @@ formBMI.addEventListener('submit', function(event) {
 
     if (success) {
         if (BMIresult < 18.6) {
-            result.style.backgroundColor = 'yellow'
+            result.style.backgroundColor = 'yellow';
+            result.style.color = 'black';
         } else if (BMIresult >= 18.6 && BMIresult <=24.9) {
-        result.style.backgroundColor = 'green'
+        result.style.backgroundColor = 'green';
+        result.style.color = 'white';
         } else if (BMIresult > 24.9) {
-        result.style.backgroundColor = 'red'
+        result.style.backgroundColor = 'red';
+        result.style.color = 'white';
         }
     };
 
