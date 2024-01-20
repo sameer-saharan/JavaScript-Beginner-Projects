@@ -1,0 +1,59 @@
+html {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background-color:whitesmoke;
+}
+
+nav {
+    margin-top: 20px;
+}
+nav a {
+    border: solid black 2px;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 8px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+}
+nav a:hover {
+    background-color: #FF2D2D;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'Salsa', cursive;
+    font-weight: bold;
+    width: 100%;
+}
+
+#banner{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+#clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 800px;
+    background-color: #FBAB30;
+    font-size: 10px;
+    font-family: 'Righteous', sans-serif;;
+    box-shadow: 1px 1px 30px black;
+    border-radius: 8px;
+}
+
+#time, #date {
+    margin: 15px;
+    font-size: 100px;
+}
