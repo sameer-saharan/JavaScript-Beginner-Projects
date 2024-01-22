@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="https://github.com/sameer-saharan/JavaScript-Beginner-Projects" target="_blank">GitHub</a>
+    </nav>
+
+    <main>
+        <h1>Number Guessing Game</h1>
+        <form>
+            <label>Guess a random number between 1 to 100</label>
+            <br><br>
+            <input type="text" id="guessBar" placeholder="e.g. 69">
+            <br><br>
+            <input type="submit" id="submit-btn" value="Submit">
+
+        </form>
+
+        <div class="hintAndResult"><span id="hint"></span><span id="num"></span></div>
+
+        <div class="stats-board">
+            <p>Previous Guess: <span class="prev-guess"></span></p>
+            <p>Guess Remaining: <span class="rem-guess">10</span> </p>
+            <input type="submit" id="new-game" value="Start New Game"> </input>
+        </div>
+        
+    </main>
+
+
+</body>
+<script src="script.js"></script>
+</html>

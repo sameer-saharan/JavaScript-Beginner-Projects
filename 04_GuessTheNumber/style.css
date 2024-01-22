@@ -1,0 +1,108 @@
+html {
+    margin: 0;
+}
+body {
+    text-align: center;
+    background-color: beige;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+nav a:hover {
+    background-color: #FF2D2D;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+label {
+    font-size: 20px;
+    font-family: 'Salsa', cursive;
+    font-weight: bold;
+}
+#guessBar {
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    border: solid black 6px;
+    padding: 5px;
+    font-size: 25px;
+    font-family: 'Salsa', cursive;
+    font-weight: bold;
+}
+
+#submit-btn {
+    height: 40px;
+    width: 110px;
+    border-radius: 100px;
+    background-color: #FAE22E ;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#submit-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.hintAndResult {
+    /* color: #E30707; */
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family: 'Righteous', sans-serif;
+    font-weight: bold;
+}
+#hint {
+    color: black;
+}
+#num {
+    color: #02B027;
+ }
+
+.stats-board{
+    width: 800px;
+    height: 250px;
+    font-family: 'Salsa', cursive;
+    font-size: 30px;
+    box-shadow: 1px 1px 10px black;
+}
+
+#new-game {
+    height: 40px;
+    background-color: #FAE22E;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Salsa', cursive;
+}
+
+#new-game:hover {
+    color: white;
+    background-color: black ;
+}
+
