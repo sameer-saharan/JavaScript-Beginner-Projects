@@ -54,7 +54,7 @@ function checkGuess(guess) {
 
 function displayGuess(guess) {
     userInput.value = ''
-    prevGuess.innerHTML += `${guess}`
+    prevGuess.innerHTML += `${guess} `
     guessCount++
     remGuess.innerHTML = `${10 - guessCount}`   
 };
