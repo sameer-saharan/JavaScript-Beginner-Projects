@@ -33,11 +33,13 @@ nav a:hover {
 }
 
 h1{
-    font-size: 50px;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 label {
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Salsa', cursive;
     font-weight: bold;
 }
@@ -56,6 +58,7 @@ label {
 #submit-btn {
     height: 40px;
     width: 110px;
+    border: solid black 1px;
     border-radius: 100px;
     background-color: #FAE22E ;
     color: black;
@@ -96,7 +99,8 @@ label {
 #new-game {
     height: 40px;
     background-color: #FAE22E;
-    border-radius: 20px;
+    border: solid black 1px;
+    border-radius: 2px;
     box-shadow: 1px 1px 10px black;
     font-size: 20px;
     font-weight: bold;
