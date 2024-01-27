@@ -8,7 +8,7 @@ body {
 
 nav {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 nav a{
     margin: 15px;
@@ -26,6 +26,10 @@ nav a:hover {
     color: white;
 }
 
+h1 {
+    font-size: 60px;
+}
+
 div {
     margin-bottom: 30px;
 }
@@ -33,15 +37,17 @@ div {
 p{
     font-family: 'Kanit', sans-serif;
     font-weight: bold;
+    font-size: 25px;
 }
 
 #start, #stop, #reset {
-    background-color:#FFE5BD ;
+    background-color:#FCBB5A;
     color: black;
-    height: 40px;
-    width: 100px;
+    height: 50px;
+    width: 140px;
+    border: solid black 1px;
     border-radius: 10px;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bold;
 }
 #start:hover, #stop:hover, #reset:hover {
