@@ -7,14 +7,9 @@ body {
     background-color: azure;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 nav {
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 nav a {
     margin: 15px;
@@ -33,31 +28,43 @@ nav a:hover {
     color: white;
 }
 
-.first-para {
-    padding: 5px;
+h1{
+    font-size: 50px;
+    margin-bottom: 2px
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-label {
-    padding: 0px 10px;
+.first-para {
+    padding: 5px;
+    font-size: 20px;
     font-family: sans-serif;
     font-weight: bold;
 }
-input {
+
+#height, #weight {
     padding: 1px 5px;
-    height: 20px;
+    height: 40px;
     width: 150px;
     border: solid black 2px;
-    border-radius: 2px
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 
 button {
-    height: 30px;
-    width: 80px;
+    height: 40px;
+    width: 120px;
     border: solid black 2px;
     border-radius: 10px;
     font-weight: bold;
     background-color: black;
     color: white;
+    transition: all 0.2s ease-in-out;
 }
 
 button:hover {
@@ -74,6 +81,7 @@ button:hover {
     font-weight: bold;
     box-shadow: 1px 1px 10px black;
     border-radius: 4px;
+    padding: 10px;
 }
 
 h3 {
