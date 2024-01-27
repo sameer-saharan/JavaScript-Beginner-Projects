@@ -2,6 +2,12 @@ html {
     margin: 0;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -28,18 +34,22 @@ nav a:hover {
     color: white;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+h1 {
+    font-size: 60px;
 }
 
 .button {
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border: solid black 2px;
     margin: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.button:hover {
+    width: 150px;
+    height: 150px;
 }
 
 #blue {
