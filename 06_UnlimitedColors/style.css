@@ -1,0 +1,49 @@
+html {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav a{
+    margin: 15px;
+    padding: 8px;
+    border: solid black 2px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: #FF2D2D;
+    color: white;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+p{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+#start, #stop, #reset {
+    background-color:#FFE5BD ;
+    color: black;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+#start:hover, #stop:hover, #reset:hover {
+    background-color: #727272;
+    color: white;
+}
