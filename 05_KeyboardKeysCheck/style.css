@@ -20,6 +20,7 @@ nav a{
     padding: 8px;
     font-family: sans-serif;
     font-weight: bold;
+    transition: all 0.5s ease-in-out;
 }
 nav a:hover {
     background-color: #FF2D2D;
@@ -43,7 +44,6 @@ table,th,td{
     box-shadow: 1px 1px 5px black;
 
 }
-/* #E10000 */
 .text {
     font-size: 40px;
     margin-top: 20px;
