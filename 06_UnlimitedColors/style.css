@@ -19,6 +19,7 @@ nav a{
     text-decoration: none;
     font-family: sans-serif;
     font-weight: bold;
+    transition: all 0.5s ease-in-out;
 }
 nav a:hover {
     background-color: #FF2D2D;
