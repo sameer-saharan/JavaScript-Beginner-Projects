@@ -73,15 +73,16 @@ button:hover {
 }
 
 #result {
-    width: 350px;
+    width: 500px;
     height: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: 'Salsa', cursive;
     font-weight: bold;
+    font-size: 25px;
     box-shadow: 1px 1px 10px black;
     border-radius: 4px;
-    padding: 10px;
+    padding-bottom: 12px;
 }
 
 h3 {
